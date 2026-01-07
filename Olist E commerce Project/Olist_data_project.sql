@@ -138,26 +138,3 @@ FROM olist_orders_dataset
 WHERE delivered_date IS NOT NULL;
 #----------------------------------------------------------------------------------------------
 #------------------------------- END --------------------------------
-
-select * from `olist_customers_dataset` as c
-inner join `olist_orders_dataset` as o
-on c.customer_id = o.customer_id
-limit 10;
-
-select * from olist_customers_dataset as c 
-left join olist_orders_dataset as o
-on c.customer_id = o.customer_id
-limit 10;
-
-select c.customer_id, o.order_status
-from olist_customers_dataset as c
-right join olist_orders_dataset as o
-on c.customer_id = o.customer_id
-limit 5;
-
-
-select *
-from olist_customers_dataset as c
-full outer join olist_orders_dataset as o
-on c.customer_id = o.customer_id
-limit 5;
