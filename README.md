@@ -1,6 +1,6 @@
 # 🇧🇷 Brazilian E-Commerce Supply Chain Analysis
 
-![Power BI Dashboard](dashboard.jpg)
+![Power BI Dashboard](https://github.com/SurajM80/Supply-Chain-Analysis.sql/blob/main/Olist%20E%20commerce%20Project/dashboard.jpg.jpeg?raw=true)
 
 ## 📌 Project Overview
 The Olist Store (a Brazilian e-commerce giant) faced a growing number of customer complaints regarding shipping delays. Management lacked visibility into whether these delays were a nationwide systemic failure or isolated to specific regions.
